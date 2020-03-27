@@ -110,10 +110,10 @@ class S {
     );
   }
 
-  String get cougningAndSneezing {
+  String get coughingAndSneezing {
     return Intl.message(
       'When coughing and sneezing cover mouth and nose with flexed elbow or tissue',
-      name: 'cougningAndSneezing',
+      name: 'coughingAndSneezing',
       desc: '',
       args: [],
     );
@@ -244,6 +244,285 @@ class S {
       args: [],
     );
   }
+
+  String get avoidTouchingFace {
+    return Intl.message(
+      'Avoid touching your eyes, mouth, and nose',
+      name: 'avoidTouchingFace',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get avoidCrowdedPlaces {
+    return Intl.message(
+      'Avoid crowded places',
+      name: 'avoidCrowdedPlaces',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get stayAtHome {
+    return Intl.message(
+      'Stay at home if you feel unwell - even with a slight fever and cough',
+      name: 'stayAtHome',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get symptomActions {
+    return Intl.message(
+      'If you have a fever, cough and difficulty breathing, seek medical care early but call by phone first!',
+      name: 'symptomActions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get latestInfoWHO {
+    return Intl.message(
+      'Stay aware of the latest information from WHO',
+      name: 'latestInfoWHO',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get travelAdviceDescription {
+    return Intl.message(
+      'WHO continues to advise against the application of travel or trade restrictions to countries experiencing COVID-19 outbreaks…',
+      name: 'travelAdviceDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get delayTravel {
+    return Intl.message(
+      'It is prudent for travellers who are sick to delay or avoid travel to affected areas, in particular for elderly travellers and people with chronic diseases or underlying health conditions…',
+      name: 'delayTravel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get affectedAreas {
+    return Intl.message(
+      '“Affected areas” are considered those countries, provinces, territories or cities experiencing ongoing transmission of COVID-19, in contrast to areas reporting only imported cases…',
+      name: 'affectedAreas',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get generalRecommendations {
+    return Intl.message(
+      'General recommendations for all travellers include…',
+      name: 'generalRecommendations',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get keepDistance {
+    return Intl.message(
+      'Stay more than 1 meter (3 feet) away from a person who is sick',
+      name: 'keepDistance',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get foodHygiene {
+    return Intl.message(
+      'Follow proper food hygiene practices',
+      name: 'foodHygiene',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get maskPrerequisites {
+    return Intl.message(
+      'Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19',
+      name: 'maskPrerequisites',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get returningFromAffectedArea {
+    return Intl.message(
+      'Travellers returning from affected areas should:',
+      name: 'returningFromAffectedArea',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get selfMonitor {
+    return Intl.message(
+      'Self-monitor for symptoms for 14 days and follow national protocols of receiving countries. Some countries may require returning travellers to enter quarantine',
+      name: 'selfMonitor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get thermalScanners {
+    return Intl.message(
+      'Thermal scanners CAN detect if people have a fever but CANNOT detect whether or not someone has the coronavirus',
+      name: 'thermalScanners',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get contactHCP {
+    return Intl.message(
+      'If symptoms occur, such as fever, or cough or difficulty breathing, travellers are advised to contact local health care providers, preferably by phone, and inform them of their symptoms and their travel history',
+      name: 'contactHCP',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get falseInformation {
+    return Intl.message(
+      'There is a lot of false information around. These are the facts',
+      name: 'falseInformation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get vunerableAges {
+    return Intl.message(
+      'People of all ages CAN be infected by the coronavirus. Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus',
+      name: 'vunerableAges',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get coldWeather {
+    return Intl.message(
+      'Cold weather and snow CANNOT kill the coronavirus',
+      name: 'coldWeather',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get hotClimates {
+    return Intl.message(
+      'The coronavirus CAN be transmitted in areas with hot and humid climates',
+      name: 'hotClimates',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get mosquitoBites {
+    return Intl.message(
+      'The coronavirus CANNOT be transmitted through mosquito bites',
+      name: 'mosquitoBites',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get petTransmission {
+    return Intl.message(
+      'There is NO evidence that companion animals/pets such as dogs or cats can transmit the coronavirus',
+      name: 'petTransmission',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get hotBath {
+    return Intl.message(
+      'Taking a hot bath DOES NOT prevent the coronavirus',
+      name: 'hotBath',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get handDryers {
+    return Intl.message(
+      'Hand dryers are NOT effective in killing the coronavirus',
+      name: 'handDryers',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get ultravoiletLight {
+    return Intl.message(
+      'Ultraviolet light SHOULD NOT be used for sterilization and can cause skin irritation',
+      name: 'ultravoiletLight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get sprayingChemicals {
+    return Intl.message(
+      'Spraying alcohol or chlorine all over your body WILL NOT kill viruses that have already entered your body',
+      name: 'sprayingChemicals',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get pneumoniaVaccines {
+    return Intl.message(
+      'Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenzae type b (Hib) vaccine, DO NOT provide protection against the coronavirus',
+      name: 'pneumoniaVaccines',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get rinsingNose {
+    return Intl.message(
+      'There is NO evidence that regularly rinsing the nose with saline has protected people from infection with the coronavirus',
+      name: 'rinsingNose',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get garlic {
+    return Intl.message(
+      'Garlic is healthy but there is NO evidence from the current outbreak that eating garlic has protected people from the coronavirus',
+      name: 'garlic',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get antibiotics {
+    return Intl.message(
+      'Antibiotics DO NOT work against viruses, antibiotics only work against bacteria',
+      name: 'antibiotics',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get noMedicine {
+    return Intl.message(
+      'To date, there is NO specific medicine recommended to prevent or treat the coronavirus',
+      name: 'noMedicine',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
@@ -251,7 +530,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
 
   List<Locale> get supportedLocales {
     return const <Locale>[
-      Locale.fromSubtags(languageCode: 'es'), Locale.fromSubtags(languageCode: 'ar'), Locale.fromSubtags(languageCode: 'zh'), Locale.fromSubtags(languageCode: 'en'), Locale.fromSubtags(languageCode: 'ru'), Locale.fromSubtags(languageCode: 'fr'),
+      Locale.fromSubtags(languageCode: 'ar'), Locale.fromSubtags(languageCode: 'en'), Locale.fromSubtags(languageCode: 'es'), Locale.fromSubtags(languageCode: 'fr'), Locale.fromSubtags(languageCode: 'ru'), Locale.fromSubtags(languageCode: 'zh'),
     ];
   }
 
