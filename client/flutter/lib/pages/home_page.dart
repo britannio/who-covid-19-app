@@ -9,6 +9,7 @@ import 'package:WHOFlutter/pages/latest_numbers.dart';
 import 'package:WHOFlutter/pages/news_feed.dart';
 import 'package:WHOFlutter/pages/protect_yourself.dart';
 import 'package:WHOFlutter/pages/question_index.dart';
+import 'package:WHOFlutter/pages/self_diagnose/self_diagnosis_page.dart';
 import 'package:WHOFlutter/pages/settings_page.dart';
 import 'package:WHOFlutter/pages/travel_advice.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
@@ -247,12 +248,27 @@ class _MenuGrid extends StatelessWidget {
     Navigator.push(context, MaterialPageRoute(builder: (c) => NewsFeed()));
   }
 
+  void _openSelfDiagnosis(BuildContext context) {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (c) => SelfDiagnosisPage()));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
         children: <Widget>[
+          IntrinsicHeight(
+            child: _MenuButton(
+              scaleFactor: 0.75,
+              color: Color(0xff234689),
+              onTap: () => _openSelfDiagnosis(context),
+              title: 'Symptom Checker',
+              mainAxisAlignment: MainAxisAlignment.center,
+            ),
+          ),
+          _VerticalSpacer(),
           IntrinsicHeight(
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.stretch,

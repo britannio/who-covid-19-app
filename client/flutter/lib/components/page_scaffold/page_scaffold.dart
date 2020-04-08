@@ -31,24 +31,19 @@ class PageScaffold extends StatelessWidget {
         color: Color(0xfff6f5f5),
         child: Padding(
           padding: this.padding,
-          child: Stack(
-            children: <Widget>[
-              CustomScrollView(slivers: [
-                PageHeader(
-                  title: this.title,
-                  subtitle: this.subtitle,
-                  padding: this.padding,
-                  showBackButton: this.showBackButton,
-                  showLogo: this.showLogoInHeader,
-                ),
-                ...this.body,
-                SliverToBoxAdapter(
-                  child: SizedBox(height: 70),
-                ),
-              ]),
-              if (this.showShareBottomBar) ShareBar()
-            ],
-          ),
+          child: CustomScrollView(slivers: [
+            PageHeader(
+              title: this.title,
+              subtitle: this.subtitle,
+              padding: this.padding,
+              showBackButton: this.showBackButton,
+              showLogo: this.showLogoInHeader,
+            ),
+            ...this.body,
+            /* SliverToBoxAdapter(
+              child: SizedBox(height: 70),
+            ), */
+          ]),
         ));
   }
 }

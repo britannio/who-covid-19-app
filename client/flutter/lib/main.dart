@@ -72,7 +72,6 @@ class _MyAppState extends State<MyApp> {
         print("onResume: $message");
       },
     );
-
   }
 
   Future<LicenseEntry> _loadLicense() async {
@@ -98,13 +97,12 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
-    // TODO: This is not essential for basic operation but we should implement 
-    // Fires if notification settings change. 
-    // Modify user opt-in if they do. 
-    // _firebaseMessaging.onIosSettingsRegistered
-    //     .listen((IosNotificationSettings settings) {
-    // });
-
+  // TODO: This is not essential for basic operation but we should implement
+  // Fires if notification settings change.
+  // Modify user opt-in if they do.
+  // _firebaseMessaging.onIosSettingsRegistered
+  //     .listen((IosNotificationSettings settings) {
+  // });
 
   @override
   Widget build(BuildContext context) {
@@ -127,6 +125,11 @@ class _MyAppState extends State<MyApp> {
         buttonTheme: ButtonThemeData(
           buttonColor: Constants.primaryColor,
           textTheme: ButtonTextTheme.accent,
+        ),
+        dividerTheme: DividerThemeData(
+          color: Color(0xffC9CDD6),
+          thickness: 1,
+          space: 0,
         ),
       ),
       home: Directionality(

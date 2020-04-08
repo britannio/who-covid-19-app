@@ -48,7 +48,7 @@ class NewsFeedItem extends StatelessWidget {
                 Center(child: Icon(Icons.arrow_forward_ios, color: Color(0xffC9CDD6),)),
               ],
             ),
-            Divider()
+            Divider(height: 16)
           ],
         ),
       ),
